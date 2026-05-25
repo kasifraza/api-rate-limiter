@@ -1,6 +1,6 @@
 {
   "name": "@kasifraza/api-rate-limiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis-backed rate limiter for NestJS with sliding window and per-user/IP limits",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,15 @@
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": ["rate-limiter", "nestjs", "redis", "sliding-window", "throttle", "guard", "typescript"],
+  "keywords": [
+    "rate-limiter",
+    "nestjs",
+    "redis",
+    "sliding-window",
+    "throttle",
+    "guard",
+    "typescript"
+  ],
   "author": "Kasif Raza <kasifraza910@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -31,5 +39,8 @@
     "ts-jest": "^29.1.0",
     "typescript": "^5.3.0"
   },
-  "files": ["dist"]
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
